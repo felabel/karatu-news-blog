@@ -10,7 +10,7 @@ const SearchBar = () => {
 //        getQuery(q)
 //    }
     return (
-        <section className="mt-1 lg:mt-2 ">
+        <section className="mt-1 lg:mt-2 lg:mb-8 ">
             <div className="container flex  items-center justify-center">
                  <form>
                 <input 

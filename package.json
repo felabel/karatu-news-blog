@@ -1,4 +1,5 @@
 {
+  "proxy": "https://newsapi.org/v2/everything",
   "name": "karatu-news-blog",
   "version": "0.1.0",
   "private": true,

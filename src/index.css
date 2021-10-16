@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;600&display=swap');
+
 .btn{
     @apply shadow-md md:py-3 lg:py-3 lg:px-6 lg:px-6 px-2 py-1.5 rounded-md transition duration-300
 }
