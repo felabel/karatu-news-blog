@@ -10,7 +10,7 @@ function App() {
     const fetchNews = async () => {
       const result = await axios({
         method:'POST',
-        url:'https://cnewsapi.org/v2/everything',
+        url:'https://newsapi.org/v2/everything',
 
         headers: {
           mode: 'no-cors',
