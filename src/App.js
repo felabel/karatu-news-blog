@@ -1,7 +1,7 @@
 import SearchBar from './components/SearchBar'
 import Header from './components/Header'
 import News from './components/News'
-import {useState, useEffect} from 'react'
+import {useEffect} from 'react'
 import axios from 'axios'
 
 function App() {

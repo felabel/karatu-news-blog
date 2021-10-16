@@ -18,7 +18,7 @@ const News = () =>{
                 md:h-44
                 lg:h-44
                 mx-auto
-                mt-8
+                mt-8 lg:mt-0 md:lg-0
                 "/>
 
                 </div>
