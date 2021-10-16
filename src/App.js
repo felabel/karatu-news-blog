@@ -10,7 +10,7 @@ function App() {
     const fetchNews = async () => {
       const result = await axios({
         method:'POST',
-        url:'https://newsapi.org/v2/everything',
+        url:'https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything',
         // mode: 'no-cors',
 
         headers: {
@@ -21,9 +21,7 @@ function App() {
         }
         ,
 
-      // 'params': {
-      //     'search':'parameter',
-      // },
+      
       })
       // .then((result) => result.json())
       console.log(result)
