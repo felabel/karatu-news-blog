@@ -33,13 +33,13 @@ function News() {
 
                     <div className="flex flex-1">
                         <h2 className="capitalize text-news-grey text-1xl md:text-lg lg:text-lg text-start lg:text-left ">
-                            By: {article.source.name}
+                            {article.source.name}
                         </h2>
                     </div>
                     <div className="block md:block lg:block item-center  gap-2 lg:items-start w-full md:w-3/4 tracking-wider">
-                        <p className="text-sm text-news-grey md:text-2xl lg:text-lg my-px tracking-wider"><FontAwesomeIcon icon={faUser} />&nbsp; &nbsp; &nbsp;{article.author ? article.author : article.source.name}</p>
+                        <p className="text-sm text-news-grey md:text-2xl lg:text-lg my-px tracking-wider"><FontAwesomeIcon icon={faUser} />&nbsp; &nbsp; {article.author ? article.author : article.source.name}</p>
                         <p className="text-base font-medium md:text-2xl lg:text-lg my-px text-grey tracking-wide leading-6">{article.title} </p>
-                        <p className="text-sm text-news-grey md:text-2xl lg:text-lg my-px tracking-wider"><FontAwesomeIcon icon={faClock} />&nbsp; &nbsp; &nbsp;{new Date(article.publishedAt).toDateString()}</p>
+                        <p className="text-sm text-news-grey md:text-2xl lg:text-lg my-px tracking-wider"><FontAwesomeIcon icon={faClock} />&nbsp; &nbsp; {new Date(article.publishedAt).toDateString()}</p>
                         <div className="my-5">
                             <a href={article.url} className="btn btn-purple border-2 border-news-purple hover:bg-news-white hover:text-news-purple font-bold hover:border-news-purple py-10 px-7 lg:my-2">Read News &#8594;</a>
                         </div>

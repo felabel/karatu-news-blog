@@ -1,12 +1,15 @@
 # Getting Started with Karatu-news-blog
 This is a react app that makes an API call to newsorg.org and displays data
 
-To run the project, download the code toyour local machine. 
-make sure to have node.js v12+ installed, if not, run npm i node
+To run the project, download the code to your local machine. 
+make sure to have node.js v12+ installed. If not, on your command line
 
-then run npm install to install all packages and dependencies
+run npm init or yarn init
+then
+run npm install or yarn install
 
-### `yarn start` starts the server
+
+### `yarn start` or `npm start` starts the server
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
